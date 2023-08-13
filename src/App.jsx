@@ -1,13 +1,12 @@
+import React from 'react';
+import Container from './components/Container';
 
 function App() {
-
   return (
     <>
-      <h1 className="text-6xl font-bold underline ">
-      Hello world!
-    </h1>
+      <Container/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
